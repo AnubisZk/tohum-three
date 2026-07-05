@@ -1,0 +1,23 @@
+{
+  "name": "tohum-three",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Three.js WebGPU uzerinde calisan acik kaynak prosedurel agac ve bitki ureticisi.",
+  "homepage": "https://github.com/AnubisZk/tohum-three",
+  "repository": { "type": "git", "url": "https://github.com/AnubisZk/tohum-three.git" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5390"
+  },
+  "dependencies": {
+    "lil-gui": "^0.21.0",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.3",
+    "vite": "^6.0.0"
+  }
+}
